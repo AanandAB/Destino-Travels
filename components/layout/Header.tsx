@@ -129,12 +129,12 @@ export default function Header() {
 
             {/* Desktop Right */}
             <div className="hidden lg:flex items-center gap-3 xl:gap-4 shrink-0">
-              <a href="tel:+919****5313"
+              <a href="tel:+919496249333"
                 className={`flex items-center gap-1.5 text-sm font-medium transition-colors ${
                   isScrolled || !isHome ? 'text-charcoal/60 hover:text-primary' : 'text-white/60 hover:text-white'
                 }`}
                 aria-label="Call Destino Tours & Travels">
-                <Phone size={14} /> <span className="hidden xl:inline">92075 75313</span>
+                <Phone size={14} /> <span className="hidden xl:inline">94962 49333</span>
               </a>
               <Link href="/booking"
                 className="bg-primary text-white rounded-full px-4 xl:px-5 py-2 text-sm font-semibold hover:bg-accent-dark transition-all">
