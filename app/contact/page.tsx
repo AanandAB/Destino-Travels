@@ -43,7 +43,18 @@ export default function ContactPage() {
     e.preventDefault()
     const { name, phone: ph, email, service, message } = form
 
-    const msgBody = `*Destino Enquiry*%0A%0A*Name:* ${name}%0A*Phone:* ${ph}%0A*Email:* ${email}%0A*Service:* ${service || 'Not specified'}%0A*Message:* ${message || '—'}%0A%0A_Sent from destinotravels.in_`
+    const msgLines = [
+      `*Destino Enquiry*`,
+      ``,
+      `*Name:* ${name}`,
+      `*Phone:* ${ph}`,
+      `*Email:* ${email}`,
+      `*Service:* ${service || 'Not specified'}`,
+      `*Message:* ${message || '—'}`,
+      ``,
+      `_Sent from destinotravels.in_`,
+    ]
+    const msgBody = encodeURIComponent(msgLines.join('\n'))
 
     setSent(true)
     window.open(`https://wa.me/${whatsappNumber}?text=${msgBody}`, '_blank')

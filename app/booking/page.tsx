@@ -107,7 +107,7 @@ function BookingFormContent({ step, setStep }: { step: number; setStep: (s: numb
       ``,
       `_Sent from destinotravels.in_`,
     ]
-    const waMessage = encodeURIComponent(msgParts.join('%0A'))
+    const waMessage = encodeURIComponent(msgParts.join('\n'))
     window.open(`https://wa.me/919496259333?text=${waMessage}`, '_blank')
 
     // Also try API for logging
