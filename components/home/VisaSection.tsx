@@ -56,7 +56,7 @@ export default function VisaSection() {
           <div className="relative">
             <div className="relative h-[450px] rounded-2xl overflow-hidden">
               <Image
-                src="/images/services/service-visa.jpg"
+                src="/Destino-Travels/images/services/service-visa.jpg"
                 alt="Visa Services"
                 fill
                 className="object-cover"

@@ -82,7 +82,7 @@ export default function HeroVideoScrub() {
         {/* Video element */}
         <video
           ref={videoRef}
-          src="/videos/destino-hero.mp4"
+          src="/Destino-Travels/videos/destino-hero.mp4"
           className="absolute inset-0 w-full h-full object-cover"
           playsInline
           muted

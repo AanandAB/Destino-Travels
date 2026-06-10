@@ -24,7 +24,7 @@ export default function DestinationsClient() {
       {/* Hero */}
       <section className="relative h-[40vh] md:h-[55vh] bg-dark">
         <Image
-          src="/images/destinations/dest-maldives.jpg"
+          src="/Destino-Travels/images/destinations/dest-maldives.jpg"
           alt="Explore worldwide destinations with Destino Travels"
           fill
           className="object-cover opacity-40"

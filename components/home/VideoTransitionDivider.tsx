@@ -49,7 +49,7 @@ export default function VideoTransitionDivider({
       <div className="sticky top-0 h-screen w-full overflow-hidden">
         <video
           ref={videoRef}
-          src="/videos/destino-hero.mp4"
+          src="/Destino-Travels/videos/destino-hero.mp4"
           className="absolute inset-0 w-full h-full object-cover"
           playsInline
           muted

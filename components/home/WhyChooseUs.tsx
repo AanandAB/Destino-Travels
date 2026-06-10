@@ -35,7 +35,7 @@ export default function WhyChooseUs() {
         <div className="grid lg:grid-cols-2 gap-16 items-center">
           <div className="relative h-[520px]">
             <div className="why-img absolute inset-0 h-[130%] -top-[15%] rounded-3xl overflow-hidden shadow-2xl">
-              <Image src="/images/about/about-office.jpg" alt="Destino Travels Office" fill className="object-cover" sizes="(max-width:1024px) 100vw, 50vw" loading="lazy" />
+              <Image src="/Destino-Travels/images/about/about-office.jpg" alt="Destino Travels Office" fill className="object-cover" sizes="(max-width:1024px) 100vw, 50vw" loading="lazy" />
             </div>
             <div className="absolute -bottom-6 -right-6 bg-accent text-dark rounded-2xl p-5 shadow-xl max-w-[220px] z-10">
               <div className="font-mono text-3xl font-bold">50K+</div><div className="text-sm font-medium mt-1">Happy Travellers</div><div className="text-xs text-dark/60 mt-1">Trusted since 2010</div>

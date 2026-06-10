@@ -53,7 +53,7 @@ export default function Header() {
             {/* Logo */}
             <Link href="/" className="flex items-center gap-2 shrink-0" aria-label="Destino Tours & Travels Home">
               <Image
-                src="/LOGO_TRANSPARENT.png"
+                src="/Destino-Travels/LOGO_TRANSPARENT.png"
                 alt="Destino Tours & Travels"
                 width={48}
                 height={48}

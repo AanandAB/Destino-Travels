@@ -26,7 +26,7 @@ export default function AboutPage() {
     <>
       <section className="relative h-[40vh] md:h-[55vh]">
         <Image
-          src="/images/about/about-team.jpg"
+          src="/Destino-Travels/images/about/about-team.jpg"
           alt="Destino Travels team in Kerala"
           fill
           className="object-cover"
@@ -61,7 +61,7 @@ export default function AboutPage() {
             </div>
             <div className="relative h-72 md:h-96 rounded-2xl overflow-hidden">
               <Image
-                src="/images/about/about-office.jpg"
+                src="/Destino-Travels/images/about/about-office.jpg"
                 alt="Destino Travels office in Kerala"
                 fill
                 className="object-cover"

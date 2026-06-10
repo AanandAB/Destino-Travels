@@ -12,3 +12,9 @@ export function formatPrice(price: number): string {
     maximumFractionDigits: 0,
   }).format(price)
 }
+
+/** Prefix asset paths for GitHub Pages static export */
+export function assetPath(path: string): string {
+  const base = process.env.NEXT_PUBLIC_BASE_PATH || ''
+  return `${base}${path}`
+}
