@@ -37,7 +37,7 @@ export default function SearchBar() {
         {/* Contact row */}
         <div className="flex flex-col sm:flex-row gap-3 items-center justify-center pt-3 border-t border-gray-100">
           <a
-            href="https://wa.me/919207575313"
+            href="https://wa.me/919496259333"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center gap-2 bg-[#25D366] text-white px-5 py-2.5 rounded-full text-sm font-medium hover:bg-[#22c35e] transition-colors"

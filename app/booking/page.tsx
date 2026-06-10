@@ -108,7 +108,7 @@ function BookingFormContent({ step, setStep }: { step: number; setStep: (s: numb
       `_Sent from destinotravels.in_`,
     ]
     const waMessage = encodeURIComponent(msgParts.join('%0A'))
-    window.open(`https://wa.me/919207575313?text=${waMessage}`, '_blank')
+    window.open(`https://wa.me/919496259333?text=${waMessage}`, '_blank')
 
     // Also try API for logging
     try {
@@ -137,7 +137,7 @@ function BookingFormContent({ step, setStep }: { step: number; setStep: (s: numb
             Back to Home
           </Button>
           <a
-            href="https://wa.me/919207575313"
+            href="https://wa.me/919496259333"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center justify-center gap-2 bg-[#25D366] text-white rounded-full px-8 py-4 text-lg font-medium"

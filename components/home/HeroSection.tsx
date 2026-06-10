@@ -99,7 +99,7 @@ export default function HeroSection() {
           <span className="text-accent font-mono text-[10px] md:text-xs tracking-[0.15em] uppercase">✈ Your Journey, Our Expertise</span>
         </div>
         <h1 className="hero-line font-display font-semibold text-white leading-[1.1] mb-4 md:mb-5 tracking-tight" style={{ fontSize: 'clamp(2rem, 6vw, 6rem)' }}>
-          Explore the World<br /><em className="text-accent not-italic">with Destino</em>
+          Mark Your<br /><em className="text-accent not-italic">Destination</em>
         </h1>
         <p className="hero-line font-sans text-white/70 md:text-white/80 text-sm md:text-lg max-w-md md:max-w-2xl mb-6 md:mb-8 leading-relaxed px-2">
           Kerala&apos;s trusted travel partner — air ticketing, visa processing, tour packages &amp; 15+ travel services under one roof.

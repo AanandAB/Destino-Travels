@@ -18,7 +18,7 @@ export default function CtaSection() {
     return () => ctx.revert()
   }, [])
 
-  const waNumber = '919207575313'
+  const waNumber = '919496259333'
 
   return (
     <section ref={sectionRef} className="bg-accent pt-28 pb-16" style={{ clipPath: 'polygon(0 8%, 100% 0%, 100% 100%, 0% 100%)' }}>

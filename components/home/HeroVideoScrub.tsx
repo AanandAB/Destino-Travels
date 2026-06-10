@@ -117,9 +117,7 @@ export default function HeroVideoScrub() {
             className="hero-line font-display font-semibold text-white leading-tight mb-4"
             style={{ fontSize: 'clamp(2.5rem, 7vw, 5.5rem)' }}
           >
-            Explore the World
-            <br />
-            <em className="text-accent not-italic">with Destino</em>
+            Mark Your<br /><em className="text-accent not-italic">Destination</em>
           </h1>
           <p className="hero-line font-sans text-white/80 text-lg max-w-2xl mb-8 leading-relaxed">
             Kerala&apos;s trusted travel experts — air ticketing, visa processing,
@@ -129,7 +127,7 @@ export default function HeroVideoScrub() {
             <Button variant="primary" size="lg" href="/packages">
               Explore Packages
             </Button>
-            <Button variant="outline-white" size="lg" href="tel:+919207575313">
+            <Button variant="outline-white" size="lg" href="tel:+919496259333">
               📞 Talk to an Expert
             </Button>
           </div>

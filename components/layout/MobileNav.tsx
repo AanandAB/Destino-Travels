@@ -65,7 +65,7 @@ export default function MobileNav({ open, onClose, links }: {
           <a href="tel:+919****5313" className="flex items-center justify-center gap-2 text-white bg-white/10 rounded-xl py-3 text-sm font-medium hover:bg-white/15 transition-colors">
             <Phone size={16} /> +91 92075 75313
           </a>
-          <a href="https://wa.me/919207575313" className="flex items-center justify-center gap-2 bg-[#25D366] text-white rounded-xl py-3 text-sm font-medium hover:bg-[#22c35e] transition-colors">
+          <a href="https://wa.me/919496259333" className="flex items-center justify-center gap-2 bg-[#25D366] text-white rounded-xl py-3 text-sm font-medium hover:bg-[#22c35e] transition-colors">
             💬 WhatsApp Us
           </a>
           <Link href="/booking" onClick={onClose} className="flex items-center justify-center gap-2 bg-accent text-dark rounded-xl py-3 text-sm font-medium hover:bg-accent-light transition-colors">

@@ -89,7 +89,7 @@ export default function Footer() {
               </div>
 
               <div className="space-y-2.5">
-                <a href="https://wa.me/919207575313" target="_blank" rel="noopener noreferrer"
+                <a href="https://wa.me/919496259333" target="_blank" rel="noopener noreferrer"
                   className="flex items-center justify-center gap-2 bg-[#25D366] text-white rounded-xl py-2.5 text-sm font-medium hover:bg-[#22c35e] transition-colors w-full">
                   💬 WhatsApp Us
                 </a>

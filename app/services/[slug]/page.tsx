@@ -95,7 +95,7 @@ export default function ServiceDetail({ params }: { params: { slug: string } }) 
                   Get Free Quote
                 </Button>
                 <a
-                  href="https://wa.me/919207575313"
+                  href="https://wa.me/919496259333"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex items-center justify-center gap-2 w-full bg-[#25D366] text-white rounded-full py-3 text-sm font-medium hover:bg-[#22c35e] transition-colors"

@@ -18,6 +18,7 @@ const phones = [
   { num: '9207575313', label: '92075 75313' },
   { num: '7025882465', label: '70258 82465' },
   { num: '9207574313', label: '92075 74313' },
+  { num: '04602259333', label: '0460 225 9333' },
 ]
 
 const serviceOptions = [
@@ -32,7 +33,7 @@ export default function ContactPage() {
     name: '', phone: '', email: '', service: '', message: ''
   })
 
-  const whatsappNumber = '919207575313'
+  const whatsappNumber = '919496259333'
 
   const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement | HTMLSelectElement>) => {
     setForm(prev => ({ ...prev, [e.target.id]: e.target.value }))
@@ -143,7 +144,7 @@ export default function ContactPage() {
                 <h3 className="font-display text-xl font-semibold text-white">Contact Information</h3>
 
                 {/* Phone grid */}
-                <div className="grid grid-cols-2 gap-2.5">
+                <div className="grid grid-cols-2 sm:grid-cols-3 gap-2.5">
                   {phones.map(p => (
                     <a key={p.num} href={`tel:+91${p.num}`}
                       className="flex items-center gap-2 text-white/70 hover:text-white transition-colors text-sm bg-white/10 rounded-xl p-3">
