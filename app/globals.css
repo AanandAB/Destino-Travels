@@ -1,33 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Syne:wght@400;500;600;700;800&family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500;600;700&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
+/* Core Logo Theme */
 :root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+  /* Brand Colors */
+  --destino-teal: #144F51;
+  --destino-charcoal: #374151;
+  --destino-white: #FFFFFF;
+
+  /* UI Functional Mapping */
+  --bg-primary: var(--destino-white);
+  --text-primary: var(--destino-charcoal);
+  --text-heading: var(--destino-teal);
+  
+  /* Action States generated from Brand Teal */
+  --btn-primary: var(--destino-teal);
+  --btn-primary-hover: #0F3D3F;
+  --surface-tint: #E7EEEE;
 }
 
-@media (prefers-color-scheme: dark) {
+@layer base {
   :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
+    --font-syne: 'Syne', sans-serif;
+    --font-inter: 'Inter', system-ui, sans-serif;
+    --font-jetbrains: 'JetBrains Mono', monospace;
   }
-}
 
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  html {
+    scroll-behavior: auto;
+  }
+
+  body {
+    @apply bg-white text-charcoal font-sans antialiased;
+  }
+
+  ::selection {
+    @apply bg-primary/20 text-primary;
+  }
 }
 
 @layer utilities {
   .text-balance {
     text-wrap: balance;
   }
+}
+
+/* Glass card — light variant */
+.glass-card {
+  background: rgba(255, 255, 255, 0.8);
+  backdrop-filter: blur(12px);
+  border: 1px solid rgba(20, 79, 81, 0.1);
+}
+
+.glass-card:hover {
+  border-color: rgba(20, 79, 81, 0.25);
+  box-shadow: 0 4px 24px rgba(20, 79, 81, 0.08);
+}
+
+.swiper-pagination-bullet-active {
+  @apply bg-primary !important;
+}
+
+.react-datepicker-wrapper {
+  width: 100%;
+}
+
+.leaflet-container {
+  @apply rounded-2xl;
+  z-index: 1;
 }
