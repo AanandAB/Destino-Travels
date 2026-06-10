@@ -1,39 +1,16 @@
-'use client'
-import { MapContainer, TileLayer, Marker, Popup } from 'react-leaflet'
-import 'leaflet/dist/leaflet.css'
-import L from 'leaflet'
-
-const icon = L.icon({
-  iconUrl: 'https://unpkg.com/leaflet@1.9.4/dist/images/marker-icon.png',
-  iconRetinaUrl: 'https://unpkg.com/leaflet@1.9.4/dist/images/marker-icon-2x.png',
-  shadowUrl: 'https://unpkg.com/leaflet@1.9.4/dist/images/marker-shadow.png',
-  iconSize: [25, 41],
-  iconAnchor: [12, 41],
-  popupAnchor: [1, -34],
-})
-
 export default function ContactMap() {
   return (
-    <div className="h-[300px] w-full rounded-2xl overflow-hidden shadow-md" style={{ isolation: 'isolate' }}>
-      <MapContainer
-        center={[11.983304, 75.556311]}
-        zoom={15}
-        scrollWheelZoom={false}
-        style={{ height: '100%', width: '100%', zIndex: 1 }}
-      >
-        <TileLayer
-          attribution='&copy; <a href="https://carto.com/">CARTO</a>'
-          url="https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png"
-        />
-        <Marker position={[11.983304, 75.556311]} icon={icon}>
-          <Popup>
-            <strong>Destino Tours &amp; Travels</strong>
-            <br />
-            Near Canara Bank, Iritty Road<br />
-            Irikkur, Kannur, Kerala
-          </Popup>
-        </Marker>
-      </MapContainer>
+    <div className="h-[300px] w-full rounded-2xl overflow-hidden shadow-md">
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3900.8!2d75.556311!3d11.983304!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMTHCsDU4JzU5LjkiTiA3NcKwMzMnMjIuNyJF!5e0!3m2!1sen!2sin!4v1690000000000"
+        width="100%"
+        height="100%"
+        style={{ border: 0, filter: 'invert(90%) hue-rotate(180deg) brightness(0.8) contrast(0.85)' }}
+        allowFullScreen
+        loading="lazy"
+        referrerPolicy="no-referrer-when-downgrade"
+        title="Destino Tours & Travels - Irikkur, Kannur"
+      />
     </div>
   )
 }

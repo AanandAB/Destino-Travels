@@ -1,17 +1,8 @@
 'use client'
 import { useState } from 'react'
-import dynamicImport from 'next/dynamic'
 import { Phone, Mail, MapPin, Clock, Send, Check } from 'lucide-react'
 import SectionHeading from '@/components/ui/SectionHeading'
-
-const ContactMap = dynamicImport(() => import('@/components/shared/ContactMap'), {
-  ssr: false,
-  loading: () => (
-    <div className="h-[300px] rounded-2xl bg-surface animate-pulse flex items-center justify-center text-muted text-sm">
-      Loading map...
-    </div>
-  ),
-})
+import ContactMap from '@/components/shared/ContactMap'
 
 const phones = [
   { num: '9496249333', label: '94962 49333' },
