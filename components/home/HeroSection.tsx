@@ -8,9 +8,9 @@ import Button from '@/components/ui/Button'
 gsap.registerPlugin(ScrollTrigger)
 
 const heroImages = [
-  { src: '/images/hero/hero-1.jpg', alt: 'Maldives Aerial Ocean View' },
-  { src: '/images/hero/hero-2.jpg', alt: 'Kerala Backwaters at Sunset' },
-  { src: '/images/hero/hero-3.jpg', alt: 'Dubai Skyline at Night' },
+  { src: '/Destino-Travels/images/hero/hero-1.jpg', alt: 'Maldives Aerial Ocean View' },
+  { src: '/Destino-Travels/images/hero/hero-2.jpg', alt: 'Kerala Backwaters at Sunset' },
+  { src: '/Destino-Travels/images/hero/hero-3.jpg', alt: 'Dubai Skyline at Night' },
 ]
 
 const stats = [
