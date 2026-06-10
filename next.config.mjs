@@ -1,4 +1,12 @@
 /** @type {import('next').NextConfig} */
-const nextConfig = {};
+const nextConfig = {
+  output: 'export',
+  basePath: '/Destino-Travels',
+  images: {
+    unoptimized: true,
+  },
+  compress: true,
+  poweredByHeader: false,
+};
 
 export default nextConfig;
